@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { setClassResponsive, setStyleResponsive } from "../core/tools";
-import { efficiency, HomeContent, publicFinances, responsiveSize, unemploymentPolicies } from "../core/content";
+import { HomeContent, responsiveSize, unemploymentPolicies } from "../core/content";
 import { TextPopUp } from "./TextPopUp";
 
 
@@ -18,8 +18,8 @@ export function Home({children}:{children?:ReactNode}){
                 <h1 className={setClassResponsive(" tx-center","font-size-a10","font-size-a3",null,responsiveSize)}>
                     En quoi le gestion des <TextPopUp text="politiques de lutte contre le chômage" popUpText={unemploymentPolicies}/>
                     peuvent-elles
-                    avoir un impact sur <TextPopUp text="l'efficience" popUpText={efficiency} />
-                    des <TextPopUp text="finances publiques" popUpText={publicFinances} />
+                    avoir un impact sur <TextPopUp text="l'efficience" popUpText="test"/>
+                    des <TextPopUp text="finances publiques" popUpText="test"/>
                     ?
                 </h1>
                 

@@ -11,7 +11,7 @@ export function Definition({children}:{children?:ReactNode}){
     const bgColor = "bg-bronze-4";
 
     return <div style={{top:"100px"}}  className="position-r top-10 w-100  d-bloc ">
-        <div style={{height:window.innerHeight*4}} className="d-flex jC-center fd-column" >
+        <div style={{height:window.innerHeight*8}} className="d-flex jC-center fd-column" >
             <div className={"w-100 h-10 t-top-left m-0 " + bgColor} id="Definition" ></div>
             <div className={"w-100 h-90 m-0 d-flex fd-column jC-center " + bgColor} >
                 <div
@@ -32,12 +32,12 @@ export function Definition({children}:{children?:ReactNode}){
                         className={setClassResponsive("p-10 alC-between w-100 h-100","","",null,responsiveSize)}
                     >
                         <DefinitionBlock text={publicFinances} title={"Finances publiques (source Larousse)"} />
-                        <DefinitionBlock text={unemployment} title={"Le chômage"} />
-                        <DefinitionBlock text={unemploymentPolicies} title={"Politiques de lutte contre le chômage"} />
-                        <DefinitionBlock text={efficiency} title={"Efficience"} />
-                        <DefinitionBlock text={keynesianPolicy} title={"La politique de soutien de la demande globale (politique Keynésienne)"} />
-                        <DefinitionBlock text={laborCostReductionPolicy} title={"La politique d’allègement du coût du travail"} />
-                        <DefinitionBlock text={trainingAndFlexibilizationPolicy} title={"La politique de formation et de flexibilisation du marché du travail"} />
+                        <DefinitionBlock text={unemployment} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={unemploymentPolicies} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={efficiency} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={keynesianPolicy} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={laborCostReductionPolicy} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={trainingAndFlexibilizationPolicy} title={"Finances publiques (source Larousse)"} />
                     </div>
                 </div>
             </div>

@@ -40,7 +40,7 @@ export function TextPopUp({
                                 <span className="font-semibold">{text}</span>
                             </div>
                             <div className="h-px bg-gray-500 my-2 "></div>
-                            <div className="text-sm font-size-a3">{popUpText}</div>
+                            <div className="text-sm font-size-a5">{popUpText}</div>
                         </motion.div>
                     )}
             </AnimatePresence>

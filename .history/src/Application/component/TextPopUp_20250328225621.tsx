@@ -11,7 +11,7 @@ export function TextPopUp({
 
     const [showPopUp,setShowPopUp] = useState(false);
 
-    if(responsiveSize <= window.innerWidth){
+    if(responsiveSize > window.innerWidth){
         return <>
 
 
@@ -40,22 +40,13 @@ export function TextPopUp({
                                 <span className="font-semibold">{text}</span>
                             </div>
                             <div className="h-px bg-gray-500 my-2 "></div>
-                            <div className="text-sm font-size-a3">{popUpText}</div>
+                            <div className="text-sm font-size-a5">{popUpText}</div>
                         </motion.div>
                     )}
             </AnimatePresence>
         </>;
     }
 
-    return <>
-        <p 
-            className="d-inline"
-            onMouseOver={() => setShowPopUp(true)}
-            onMouseOut={() => setShowPopUp(false)}
-        >
-            {text}
-        </p>
-        {" "}
-    </>
+    return <></>
 }
 

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import { setClassResponsive, setStyleResponsive } from "../core/tools";
-import { efficiency, HomeContent, publicFinances, responsiveSize, unemploymentPolicies } from "../core/content";
+import { setClassResponsive } from "../core/tools";
+import { HomeContent, responsiveSize } from "../core/content";
 import { TextPopUp } from "./TextPopUp";
 
 
@@ -16,18 +16,18 @@ export function Home({children}:{children?:ReactNode}){
                     Problématique:<br/>
                 </h1>
                 <h1 className={setClassResponsive(" tx-center","font-size-a10","font-size-a3",null,responsiveSize)}>
-                    En quoi le gestion des <TextPopUp text="politiques de lutte contre le chômage" popUpText={unemploymentPolicies}/>
+                    En quoi le gestion des <TextPopUp text="politiques de lutte contre le chômage" popUpText="test"/>
                     peuvent-elles
-                    avoir un impact sur <TextPopUp text="l'efficience" popUpText={efficiency} />
-                    des <TextPopUp text="finances publiques" popUpText={publicFinances} />
+                    avoir un impact sur <TextPopUp text="l'efficience" popUpText="test"/>
+                    des <TextPopUp text="finances publiques" popUpText="test"/>
                     ?
                 </h1>
                 
             </div>
         </div>
-        <div style={setStyleResponsive({height:window.innerHeight*2},{height:window.innerHeight*4},null,responsiveSize)} className="d-flex jC-center" id="Home">
+        <div style={{height:window.innerHeight*4}} className="d-flex jC-center" id="Home">
             <div
-                className={setClassResponsive("h-100 d-flex jC-center al-center fd-column ","font-size-a6 w-50","font-size-a2 w-90 tx-center ",null,responsiveSize)}>
+                className={setClassResponsive("h-100 d-flex jC-center al-center fd-column font-size-a6","w-50","w-90 tx-center ",null,responsiveSize)}>
                 <p>
                     {HomeContent}
                 </p>

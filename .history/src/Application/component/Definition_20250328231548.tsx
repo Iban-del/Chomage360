@@ -34,10 +34,10 @@ export function Definition({children}:{children?:ReactNode}){
                         <DefinitionBlock text={publicFinances} title={"Finances publiques (source Larousse)"} />
                         <DefinitionBlock text={unemployment} title={"Le chômage"} />
                         <DefinitionBlock text={unemploymentPolicies} title={"Politiques de lutte contre le chômage"} />
-                        <DefinitionBlock text={efficiency} title={"Efficience"} />
-                        <DefinitionBlock text={keynesianPolicy} title={"La politique de soutien de la demande globale (politique Keynésienne)"} />
-                        <DefinitionBlock text={laborCostReductionPolicy} title={"La politique d’allègement du coût du travail"} />
-                        <DefinitionBlock text={trainingAndFlexibilizationPolicy} title={"La politique de formation et de flexibilisation du marché du travail"} />
+                        <DefinitionBlock text={efficiency} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={keynesianPolicy} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={laborCostReductionPolicy} title={"Finances publiques (source Larousse)"} />
+                        <DefinitionBlock text={trainingAndFlexibilizationPolicy} title={"Finances publiques (source Larousse)"} />
                     </div>
                 </div>
             </div>

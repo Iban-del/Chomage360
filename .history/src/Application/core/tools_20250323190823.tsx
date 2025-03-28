@@ -54,7 +54,7 @@ export function TextAnnimation({textValue,animateText,duration= 1500}:{textValue
     useEffect(()=>{
         const interval = setInterval(()=>{
             setText(prevText => (prevText === "" ? animateText: ""));
-            console.log(text)
+            
         },2000)
 
         return () => clearInterval(interval)

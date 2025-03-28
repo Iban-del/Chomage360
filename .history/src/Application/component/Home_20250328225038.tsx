@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { setClassResponsive, setStyleResponsive } from "../core/tools";
-import { efficiency, HomeContent, publicFinances, responsiveSize, unemploymentPolicies } from "../core/content";
+import { efficiency, HomeContent, responsiveSize, unemploymentPolicies } from "../core/content";
 import { TextPopUp } from "./TextPopUp";
 
 
@@ -19,7 +19,7 @@ export function Home({children}:{children?:ReactNode}){
                     En quoi le gestion des <TextPopUp text="politiques de lutte contre le chômage" popUpText={unemploymentPolicies}/>
                     peuvent-elles
                     avoir un impact sur <TextPopUp text="l'efficience" popUpText={efficiency} />
-                    des <TextPopUp text="finances publiques" popUpText={publicFinances} />
+                    des <TextPopUp text="finances publiques" popUpText="test"/>
                     ?
                 </h1>
                 
