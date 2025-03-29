@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { setClassResponsive, setStyleResponsive } from "../core/tools";
-import { defaultHeight, responsiveSize } from "../core/content";
+import { responsiveSize } from "../core/content";
 
 
 

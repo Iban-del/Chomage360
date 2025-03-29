@@ -5,7 +5,6 @@ export const responsiveSize = 1460;
 
 export const defaultHeight = 1063;
 
-
 export const ButtonsNavBar:Array<ButtonsNavBarInterface> = [
     {
         title:"Accueil",

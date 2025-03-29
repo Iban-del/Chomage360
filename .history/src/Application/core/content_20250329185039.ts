@@ -3,8 +3,7 @@ import { setClassResponsive, setStyleResponsive } from "./tools";
 
 export const responsiveSize = 1460;
 
-export const defaultHeight = 1063;
-
+export defaultHeight = 1063;
 
 export const ButtonsNavBar:Array<ButtonsNavBarInterface> = [
     {
