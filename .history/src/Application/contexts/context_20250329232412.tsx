@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useRef, useState } from "react";
 import { sizeInterface, WindowSizeInterface } from "../core/interface";
 
 

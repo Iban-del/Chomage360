@@ -1,4 +1,5 @@
 import windowHook from "../hooks/windowHook"
+const stepScroll:number = 1
 
 
 /**
