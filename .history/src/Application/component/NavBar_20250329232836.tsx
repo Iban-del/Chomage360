@@ -32,7 +32,7 @@ export function NavBar() {
             )}>
                         <ResponsiveBigger height={null} width={responsiveSize}>
                             <div className='d-flex jC-strat  h-100 w-50 alC-center al-center'>
-                                <img src='/icon.jpg' className='h-100'/>
+                                <img src='icon.jpg' className='h-100'/>
                                 {/* <h1 className='font-size-a6 m-2 '>Chômage 360</h1> */}
                             </div>
                             <div className='p-2 d-flex jC-end h-100 w-50 al-end alC-center al-center '>
@@ -41,7 +41,7 @@ export function NavBar() {
                         </ResponsiveBigger>
                         <ResponsiveSmaller height={null} width={responsiveSize}>
                             <div className='d-flex jC-start p-2 h-100 w-80 alC-center al-center'>
-                                <img src='/icon.jpg' className='h-100'/>
+                                <img src='icon.jpg' className='h-100'/>
                                 {/* <h6 className='font-size-a4 '>Chômage 360</h6> */}
                             </div>
                             <div className='p-2 d-flex jC-end h-100 w-20 al-end al-center'>
