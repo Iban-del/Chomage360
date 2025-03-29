@@ -7,7 +7,7 @@ import { caseStudies, responsiveSize } from "../core/content";
 
 export function CaseStudies({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-bronze-7";
+    const bgColor = "bg-purple-7";
 
     return <div  className="position-r top-10 w-100 d-bloc " id="CaseStudies">
         <div style={setStyleResponsive({height:window.innerHeight},{height:window.innerHeight*2},null,responsiveSize)} className={"d-flex jC-center fd-column "+ bgColor} >

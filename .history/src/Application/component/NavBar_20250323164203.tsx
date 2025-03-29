@@ -26,7 +26,7 @@ export function NavBar() {
     return (
         <div>
             <div className={setClassResponsive(
-                                    "h-100px w-100 d-flex al-center position-f z-99 bg-bronze-8 m-0","","",
+                                    "h-100px w-100 d-flex al-center position-f z-99 bg-purple-8 m-0","","",
                                     null,
                                     responsiveSize
             )}>
@@ -56,7 +56,7 @@ export function NavBar() {
 function DropDownList({buttons}:DropDownListInterface){
     return (
         <motion.div 
-            className='position-a bg-gray left-50 h-300px w-50 bg-bronze-8  d-flex fd-column jC-evenly z-100'
+            className='position-a bg-gray left-50 h-300px w-50 bg-purple-8  d-flex fd-column jC-evenly z-100'
             style={{ top: "100px" }}
             initial={{y:"-100%"}}
             animate={{y:"0%"}}

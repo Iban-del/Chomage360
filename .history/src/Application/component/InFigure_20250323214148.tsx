@@ -8,7 +8,7 @@ import { Card, CardContent, Typography } from "@mui/material";
 
 export function InFigure({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-bronze-8";
+    const bgColor = "bg-purple-8";
 
     return <div style={{top:"100px"}}  className="position-r top-10 w-100 h-100 d-bloc ">
         <div style={{height:window.innerHeight}} className="d-flex jC-center fd-column">

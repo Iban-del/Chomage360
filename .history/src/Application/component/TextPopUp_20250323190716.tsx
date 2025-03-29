@@ -10,7 +10,7 @@ export function TextPopUp({
 
     const [showPopUp,setShowPopUp] = useState(false);
 
-    const onOver = <div className="position-r h-100px w-400px bg-bronze-12 top-0">
+    const onOver = <div className="position-r h-100px w-400px bg-purple-12 top-0">
                         <div>
                             {icon}
                         </div>

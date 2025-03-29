@@ -11,7 +11,7 @@ export function TextPopUp({
     const [showPopUp,setShowPopUp] = useState(false);
 
     const onOver = <motion.div 
-                        className="position-a h-20 w-50 bg-bronze-a10 top-5 left-50"
+                        className="position-a h-20 w-50 bg-purple-a10 top-5 left-50"
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.9 }}

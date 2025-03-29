@@ -29,7 +29,7 @@ export function TextPopUp({
                 {showPopUp && (
                     <motion.div
                         key="popup"
-                        className="position-a h-20 w-50 bg-bronze-a10 top-5 left-1/2"
+                        className="position-a h-20 w-50 bg-purple-a10 top-5 left-1/2"
                         initial={{ opacity: 0, scale: 0.9, y: -10 }}
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.9, y: -10 }}

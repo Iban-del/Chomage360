@@ -11,7 +11,7 @@ export function TextPopUp({
     const [showPopUp,setShowPopUp] = useState(false);
 
     const onOver =()=>{
-        return <div className="position-a h-10 w-50 bg-bronze-12 top-0 left-50">
+        return <div className="position-a h-10 w-50 bg-purple-12 top-0 left-50">
                     <div>
                         {icon}
                     </div>

@@ -8,7 +8,7 @@ import { BarChart } from '@mui/x-charts/BarChart';
 
 export function InFigure({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-bronze-9";
+    const bgColor = "bg-purple-9";
 
     return <div  className="position-r w-100 d-bloc ">
         <div style={{height:window.innerHeight}} className="d-flex jC-center fd-column">

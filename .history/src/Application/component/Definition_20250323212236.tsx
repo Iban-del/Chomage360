@@ -8,7 +8,7 @@ import { Card, CardContent, Typography } from "@mui/material";
 
 export function Definition({children}:{children?:ReactNode}){
     
-    const bgColor = "bg-bronze-3";
+    const bgColor = "bg-purple-3";
 
     return <div style={{top:"100px"}}  className="position-r top-10 w-100 h-100 d-bloc ">
         <div style={{height:window.innerHeight*2}} className="d-flex jC-center fd-column">

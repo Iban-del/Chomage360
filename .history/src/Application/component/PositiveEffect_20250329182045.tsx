@@ -7,7 +7,7 @@ import { firstPositiveEffect, responsiveSize, segondPositiveEffect } from "../co
 
 export function PositiveEffect({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-bronze-5";
+    const bgColor = "bg-purple-5";
 
     return <div   className="position-r top-10 w-100  d-bloc ">
         <div style={setStyleResponsive({height:window.innerHeight*2},{height:window.innerHeight*6},null,responsiveSize)} className={"h-100 d-flex jC-center fd-column "+bgColor} id="PositiveEffect">

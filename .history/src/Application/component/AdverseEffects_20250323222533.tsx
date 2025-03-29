@@ -7,7 +7,7 @@ import { responsiveSize } from "../core/content";
 
 export function AdverseEffects({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-bronze-6";
+    const bgColor = "bg-purple-6";
 
     return <div  className="position-r top-10 w-100 d-bloc ">
         <div style={{height:window.innerHeight}} className="d-flex jC-center fd-column">

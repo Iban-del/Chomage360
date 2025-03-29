@@ -8,7 +8,7 @@ import { Card, CardContent, Typography } from "@mui/material";
 
 export function InFigure({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-bronze-8";
+    const bgColor = "bg-purple-8";
     const data = [
         { name: "Jan", sales: 4000 },
         { name: "Feb", sales: 3000 },

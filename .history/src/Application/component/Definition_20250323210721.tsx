@@ -17,8 +17,8 @@ export function Definition({children}:{children?:ReactNode}){
       ];
     return <div style={{top:"100px"}}  className="position-r top-10 w-100 h-100 d-bloc ">
         <div style={{height:window.innerHeight*2}} className="d-flex jC-center fd-column">
-            <div className="w-100 h-10 bg-bronze-6 t-top-left m-0"></div>
-            <div className="w-100 h-90 bg-bronze-6 m-0 d-flex fd-column jC-center" id="Definition">
+            <div className="w-100 h-10 bg-purple-6 t-top-left m-0"></div>
+            <div className="w-100 h-90 bg-purple-6 m-0 d-flex fd-column jC-center" id="Definition">
                 <div
                     className={setClassResponsive("h-15 w-100 d-flex fd-column jC-center al-center font-size-a11","","",null,responsiveSize)}
                 >

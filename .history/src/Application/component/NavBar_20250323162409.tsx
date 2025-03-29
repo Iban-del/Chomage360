@@ -27,7 +27,7 @@ export function NavBar() {
     return (
         <div>
             <div className={setClassResponsive(
-                                    "h-100px w-100 d-flex al-center position-f z-99 bg-bronze-8","","",
+                                    "h-100px w-100 d-flex al-center position-f z-99 bg-purple-8","","",
                                     null,
                                     responsiveSize
             )}>

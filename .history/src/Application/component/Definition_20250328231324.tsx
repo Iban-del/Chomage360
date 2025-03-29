@@ -8,7 +8,7 @@ import { Card, CardContent, Typography } from "@mui/material";
 
 export function Definition({children}:{children?:ReactNode}){
     
-    const bgColor = "bg-bronze-4";
+    const bgColor = "bg-purple-4";
 
     return <div style={{top:"100px"}}  className="position-r top-10 w-100  d-bloc ">
         <div style={{height:window.innerHeight*2}} className="d-flex jC-center fd-column" >
@@ -50,7 +50,7 @@ export function Definition({children}:{children?:ReactNode}){
 
 function DefinitionBlock({text,title}:{text:string,title:string}){
     return <div
-        className={setClassResponsive("m-5 w-50 bg-bronze-a9 p-2 br-4","h-100 alC-around","",null,responsiveSize)}
+        className={setClassResponsive("m-5 w-50 bg-purple-a9 p-2 br-4","h-100 alC-around","",null,responsiveSize)}
     >
         <div
             className={setClassResponsive("","font-size-a8 ","",null,responsiveSize)}

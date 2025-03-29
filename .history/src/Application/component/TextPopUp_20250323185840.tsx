@@ -10,7 +10,7 @@ export function TextPopUp({
     
 
     const onOver = ()=>{
-        return  <div className="h-100px w-400px bg-bronze-12">
+        return  <div className="h-100px w-400px bg-purple-12">
                     <div>
                         {icon}
                     </div>
