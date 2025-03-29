@@ -1,14 +1,15 @@
 @import "tailwindcss";
 body,html,.root{
     border: 0px;
-    background-color: #FDF7F5;
+   /** background-color: #FDF7F5;*/
+   background-image:url("/public/bg.jpg");
     padding: 0px;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
     color: rgb(0, 0, 0);
     font-family: 'Quicksand', sans-serif;
-    scrollbar-color: #FDF7F5 #999078;
+    scrollbar-color: #c7c6c6 #ffffff;
     scrollbar-width: thin;
     scroll-behavior: smooth;
 }

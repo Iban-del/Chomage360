@@ -7,7 +7,7 @@ import { defaultHeight, firstPositiveEffect, responsiveSize, segondPositiveEffec
 
 export function PositiveEffect({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-purple-5";
+    const bgColor = "bg-purple-a5";
 
     return <div   className="position-r top-10 w-100  d-bloc ">
         <div style={setStyleResponsive({height:defaultHeight*3},{height:window.innerHeight*5},null,responsiveSize)} className={"h-100 d-flex jC-center fd-column "+bgColor} id="PositiveEffect">
@@ -25,13 +25,13 @@ export function PositiveEffect({children}:{children?:ReactNode}){
             <div
                 className={setClassResponsive("h-85 w-100 d-flex al-center fd-column","font-size-a4","",null,responsiveSize)}
             >
-                <div className={setClassResponsive("p-2 h-25 ","w-50","w-100",null,responsiveSize)}>
+                <div className={setClassResponsive("p-2 h-25 ","w-70","w-100",null,responsiveSize)}>
                     {firstPositiveEffect}
                 </div>
                 <div className={setClassResponsive("h-50 w-100","","",null,responsiveSize)}>
                     <img src=""></img>
                 </div>
-                <div className={setClassResponsive("p-2 h-25 ","w-50","w-100",null,responsiveSize)}>
+                <div className={setClassResponsive("p-2 h-25 ","w-70","w-100",null,responsiveSize)}>
                     {segondPositiveEffect}
                 </div>
             </div>

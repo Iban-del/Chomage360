@@ -7,7 +7,7 @@ import { defaultHeight, firstInFigure, responsiveSize, segondInFigure } from "..
 
 export function InFigure({children}:{children?:ReactNode}){
 
-    const bgColor = "bg-purple-9";
+    const bgColor = "bg-purple-a9";
 
     return <div  className="position-r w-100 d-bloc ">
         <div  style={setStyleResponsive({height:defaultHeight*3},{height:window.innerHeight*15},null,responsiveSize)} className="d-flex jC-center fd-column">

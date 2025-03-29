@@ -7,7 +7,7 @@ import { defaultHeight, efficiency, keynesianPolicy, laborCostReductionPolicy, p
 
 export function Definition({children}:{children?:ReactNode}){
     
-    const bgColor = "bg-purple-4";
+    const bgColor = "bg-purple-a4";
 
     return <div style={{top:"100px"}}  className="position-r top-10 w-100  d-bloc ">
         <div style={setStyleResponsive({height:defaultHeight*4},{height:window.innerHeight*7},null,responsiveSize)} className="d-flex jC-center fd-column" >
