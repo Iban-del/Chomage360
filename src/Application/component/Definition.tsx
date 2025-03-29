@@ -1,8 +1,7 @@
 import { ReactNode } from "react";
 import { setClassResponsive, setStyleResponsive } from "../core/tools";
 import { defaultHeight, efficiency, keynesianPolicy, laborCostReductionPolicy, publicFinances, responsiveSize, trainingAndFlexibilizationPolicy, unemployment, unemploymentPolicies } from "../core/content";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
-import { Card, CardContent, Typography } from "@mui/material";
+
 
 
 
@@ -50,7 +49,7 @@ export function Definition({children}:{children?:ReactNode}){
 
 function DefinitionBlock({text,title}:{text:string,title:string}){
     return <div
-        className={setClassResponsive("bg-bronze-a9 p-2 br-4","m-5 w-50 h-400px alC-around","m-2 w-100",null,responsiveSize)}
+        className={setClassResponsive("bg-bronze-a9 p-2 br-4","m-5 w-70 h-400px alC-around","m-2 w-100",null,responsiveSize)}
     >
         <div
             className={setClassResponsive("","font-size-a8 ","font-size-a8 ",null,responsiveSize)}
