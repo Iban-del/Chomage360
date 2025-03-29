@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
-import { setClassResponsive, setStyleResponsive } from "../core/tools";
+import { setClassResponsive } from "../core/tools";
 import { responsiveSize } from "../core/content";
-
+import * as React from 'react';
+import { BarChart } from '@mui/x-charts/BarChart';
 
 
 
@@ -10,7 +11,7 @@ export function InFigure({children}:{children?:ReactNode}){
     const bgColor = "bg-bronze-9";
 
     return <div  className="position-r w-100 d-bloc ">
-        <div  style={setStyleResponsive({height:window.innerHeight*3},{height:window.innerHeight*15},null,responsiveSize)} className="d-flex jC-center fd-column">
+        <div style={{height:window.innerHeight}} className="d-flex jC-center fd-column">
             <div className={"w-100 h-100 m-0 " + bgColor} id="InFigure">
                 <div
                     className={setClassResponsive("h-15 w-100 d-flex fd-column jC-center al-center font-size-a11","","",null,responsiveSize)}

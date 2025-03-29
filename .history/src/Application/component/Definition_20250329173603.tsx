@@ -15,7 +15,7 @@ export function Definition({children}:{children?:ReactNode}){
             <div className={"w-100 h-10 t-top-left m-0 " + bgColor} id="Definition" ></div>
             <div className={"w-100 h-90 m-0 d-flex fd-column jC-center " + bgColor} >
                 <div
-                    className={setClassResponsive("h-10 w-100 d-flex fd-column jC-center al-center font-size-a11","","",null,responsiveSize)}
+                    className={setClassResponsive("h-15 w-100 d-flex fd-column jC-center al-center font-size-a11","","",null,responsiveSize)}
                 >
                     <h1
                         className={setClassResponsive("","","",null,responsiveSize)}
@@ -26,10 +26,10 @@ export function Definition({children}:{children?:ReactNode}){
                 </div>
                 
                 <div
-                    className={setClassResponsive("h-90 w-100","","",null,responsiveSize)}
+                    className={setClassResponsive("h-85 w-100","","",null,responsiveSize)}
                 >
                     <div
-                        className={setClassResponsive("p-10 alC-between w-100 h-100 d-flex jC-around fd-column","","",null,responsiveSize)}
+                        className={setClassResponsive("p-10 alC-between w-100 h-100","","",null,responsiveSize)}
                     >
                         <DefinitionBlock text={publicFinances} title={"Finances publiques (source Larousse)"} />
                         <DefinitionBlock text={unemployment} title={"Le chômage"} />
@@ -50,14 +50,14 @@ export function Definition({children}:{children?:ReactNode}){
 
 function DefinitionBlock({text,title}:{text:string,title:string}){
     return <div
-        className={setClassResponsive("bg-bronze-a9 p-2 br-4","m-5 w-50 h-400px alC-around","m-2 w-100",null,responsiveSize)}
+        className={setClassResponsive("m-5 w-50 bg-bronze-a9 p-2 br-4","h-400px alC-around","",null,responsiveSize)}
     >
         <div
-            className={setClassResponsive("","font-size-a8 ","font-size-a8 ",null,responsiveSize)}
+            className={setClassResponsive("","font-size-a8 ","",null,responsiveSize)}
         >
             {title}:
         </div>
-        <br/>
+
         <div
             className={setClassResponsive("","font-size-a4","",null,responsiveSize)}
         >

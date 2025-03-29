@@ -29,7 +29,7 @@ export function Definition({children}:{children?:ReactNode}){
                     className={setClassResponsive("h-90 w-100","","",null,responsiveSize)}
                 >
                     <div
-                        className={setClassResponsive("p-10 alC-between w-100 h-100 d-flex jC-around fd-column","","",null,responsiveSize)}
+                        className={setClassResponsive("p-10 alC-between w-100 h-100 d-flex jC-evenly fd-column","","",null,responsiveSize)}
                     >
                         <DefinitionBlock text={publicFinances} title={"Finances publiques (source Larousse)"} />
                         <DefinitionBlock text={unemployment} title={"Le chômage"} />

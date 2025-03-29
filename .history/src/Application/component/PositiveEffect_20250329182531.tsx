@@ -10,7 +10,7 @@ export function PositiveEffect({children}:{children?:ReactNode}){
     const bgColor = "bg-bronze-5";
 
     return <div   className="position-r top-10 w-100  d-bloc ">
-        <div style={setStyleResponsive({height:window.innerHeight*3},{height:window.innerHeight*5},null,responsiveSize)} className={"h-100 d-flex jC-center fd-column "+bgColor} id="PositiveEffect">
+        <div style={setStyleResponsive({height:window.innerHeight*2},{height:window.innerHeight*15},null,responsiveSize)} className={"h-100 d-flex jC-center fd-column "+bgColor} id="PositiveEffect">
             <div
                     className={setClassResponsive("h-15 w-100 d-flex fd-column jC-center al-center font-size-a11","","",null,responsiveSize)}
             >
@@ -23,7 +23,7 @@ export function PositiveEffect({children}:{children?:ReactNode}){
             </div>
                 
             <div
-                className={setClassResponsive("h-85 w-100 d-flex al-center fd-column","font-size-a4","",null,responsiveSize)}
+                className={setClassResponsive("h-85 w-100 d-flex al-center fd-column","","",null,responsiveSize)}
             >
                 <div className={setClassResponsive("p-2 h-25 ","w-50","w-100",null,responsiveSize)}>
                     {firstPositiveEffect}
@@ -31,7 +31,7 @@ export function PositiveEffect({children}:{children?:ReactNode}){
                 <div className={setClassResponsive("h-50 w-100","","",null,responsiveSize)}>
                     <img src=""></img>
                 </div>
-                <div className={setClassResponsive("p-2 h-25 ","w-50","w-100",null,responsiveSize)}>
+                <div className={setClassResponsive("h-25 ","w-50","w-100",null,responsiveSize)}>
                     {segondPositiveEffect}
                 </div>
             </div>

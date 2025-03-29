@@ -10,7 +10,7 @@ export function CaseStudies({children}:{children?:ReactNode}){
     const bgColor = "bg-bronze-7";
 
     return <div  className="position-r top-10 w-100 d-bloc " id="CaseStudies">
-        <div style={setStyleResponsive({height:window.innerHeight},{height:window.innerHeight*3},null,responsiveSize)} className={"d-flex jC-center fd-column "+ bgColor} >
+        <div style={setStyleResponsive({height:window.innerHeight},{height:window.innerHeight*2},null,responsiveSize)} className={"d-flex jC-center fd-column "+ bgColor} >
             <div
                 className={setClassResponsive("h-15 w-100 d-flex fd-column jC-center al-center font-size-a11","","",null,responsiveSize)}
             >
