@@ -1,0 +1,38 @@
+import { ReactNode } from "react";
+import { setClassResponsive, setStyleResponsive } from "../core/tools";
+import { caseStudies, defaultHeight, responsiveSize, toRemember } from "../core/content";
+
+
+
+
+export function ToRemember({children}:{children?:ReactNode}){
+    const bgColor = "";
+
+    return <div  className="position-r top-10 w-100 d-bloc " id="CaseStudies">
+        <div style={setStyleResponsive({height:defaultHeight/2},{height:defaultHeight*2},null,responsiveSize)} className={"d-flex jC-center fd-column "+ bgColor} >
+            <div
+                className={setClassResponsive(" w-100 d-flex fd-column jC-center al-center font-size-a11","h-20","h-5",null,responsiveSize)}
+            >
+                <h1
+                    className={setClassResponsive("","","",null,responsiveSize)}
+                >
+                    À retenir
+                </h1>
+                <div className="bar-2 "></div>
+            </div>
+                
+            <div
+                className={setClassResponsive(" w-100 d-flex al-center fd-column","font-size-a4 h-80","h-95",null,responsiveSize)}
+                id="toRemember"
+            >
+                <div className={setClassResponsive("al-center d-flex JC-center p-2 h-100 tx-justify","w-70","w-100",null,responsiveSize)}>
+                    {toRemember}
+                </div>
+        
+            </div>
+        </div>
+        {children}
+    </div>
+}
+
+
